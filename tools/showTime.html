@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>当前时间</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+
+        .container {
+            width: 100vw;
+            height: calc(100vh);
+        }
+
+        .showTime {
+            color: white;
+            font-size: 100px;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            line-height: calc(100vh);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div id="ydmdw" class="showTime"></div> -->
+        <div id="hmsm" class="showTime"></div>
+    </div>
+
+    <script>
+
+        function showTime() {
+            var date = new Date();
+
+            // var year = date.getFullYear();
+            // var month = date.getMonth() + 1;  //因为month属性从0开始所以加1
+            // var day = date.getDate();   // 日
+            // var week = date.getDay();  // 星期几，是个数字
+            // var current_A = year + "-" + month + "-" + day + " " + "星期" + week;
+            // var showTime_A = document.getElementById("ydmdw")
+            // showTime_A.innerHTML = current_A;
+            var hour = date.getHours();
+            var minute = date.getMinutes();
+            var second = date.getSeconds();
+            var micro_second = date.getMilliseconds();
+            second = second < 10 ? "0" + second : second;
+            var current_B = hour + ":" + minute + ":" + second + "       " + micro_second;
+            var showTime_B = document.getElementById("hmsm")
+            showTime_B.innerHTML = current_B;
+        }
+
+        setInterval("showTime()", 1);//每隔1000毫秒（即1秒）显示一次当前时间
+    </script>
+
+
+</body>
+
+</html>

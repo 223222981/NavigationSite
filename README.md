@@ -1,1 +1,24 @@
-# NavigationSite
+# 关于Dapenson导航
+
+导航页面地址:
+
+https://site.z-cy.cn
+
+
+
+本导航是由[byr.wiki](https://github.com/byrwiki/byrwiki)源码进行个性化修改而来,并使用gitee pages服务进行展示并使用 
+
+
+
+|      |                    浏览                     |                                                     |                                                         |                                                          | 工具   |                                                              |                                                     |                                                      |                                                              |
+| :--: | :-----------------------------------------: | --------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------- | ------ | ------------------------------------------------------------ | --------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ |
+| 购物 |         [京东](http://www.jd.com/)          | [天猫](https://www.tmall.com/)                      |                                                         | [亚马逊](https://www.amazon.cn/)                         | 邮箱   | [腾讯邮箱](https://mail.qq.com/)                             | [网易邮箱](http://email.163.com/)                   | [谷歌邮箱](https://mail.google.com/)                 | [阿里邮箱](https://mail.aliyun.com/)                         |
+| 影音 |    [哔哩哔哩](https://www.bilibili.com/)    | [网易云](https://music.163.com/)                    | [y80s](http://www.8080s.net/)                           | [YouTube](https://www.youtube.com/)                      | Code   | [Github](https://github.com/)                                | [Gitee](https://gitee.com/)                         | [coding](https://coding.net/)                        | [远程工作台](https://dapenson.cloudstudio.net/dashboard/workspace) |
+| 社交 |          [微博](http://weibo.com/)          | [知乎](https://www.zhihu.com/)                      | [公众号](https://mp.weixin.qq.com/cgi-bin/home?t=home/) | [小程序](https://mp.weixin.qq.com/wxamp/home/)           | 工具   | [有道翻译](http://fanyi.youdao.com/)                         | [md目录生成](https://sleepeatcode.com/ghtoc)        | [短链生成](http://suo.im/)                           | [aliIOT生成](https://x223222981.gitee.io/aliyun_mqttpassword_get/) |
+| 资讯 |      [网易新闻](http://news.163.com/)       | [腾讯新闻](http://news.qq.com/)                     | [今日头条](http://www.toutiao.com/)                     | [微信热门](http://weixin.sogou.com/)                     | String | [Json格式化](https://www.json.cn/?tdsourcetag=s_pcqq_aiomsg) | [博文导出](http://dapenson.icu/n/tool-jekyll-post/) | [ArduinoJson](https://arduinojson.org/v6/assistant/) | [正则验证](https://regex101.com/)                            |
+| 创客 |  [太极创客](http://www.taichi-maker.com/)   | [Arduino项目](https://create.arduino.cc/projecthub) | [树莓派](https://shumeipai.nxez.com/)                   | [instructables](https://www.instructables.com/workshop/) | 查询   | [DNS检测](https://zijian.aliyun.com/?spm=5176.100251.0.0.5fb54f15mPPLsC#/domainDetect) | [端口扫描](https://tool.chinaz.com/port)            | [快递查询](https://www.kuaidi100.com/)               | [高德地图](https://www.amap.com/)                            |
+|  3D  | [thingiverse](https://www.thingiverse.com/) | [free3d](https://free3d.com/)                       | [grabcad](https://grabcad.com/library)                  | [SW模型库](https://www.3dcontentcentral.cn/)             | 办公   | [流程图](https://www.processon.com/)                         | [文件中转](https://app.tmp.link/?tmpui_page=/)      | [搜图集合](https://www.91sotu.com/)                  | [格式转换](https://cn.office-converter.com/)                 |
+
+| Others | [搜酷站](https://www.soukuzhan.com/) | [前端导航](http://www.alloyteam.com/nav/) | [我的博客](http://dapenson.icu/) | [OKTools](https://oktools.net/) | [胡萝卜周](http://www.carrotchou.blog/) | [孟坤工具箱](http://tool.mkblog.cn/) | [智能翻译](https://www.deepl.com/translator) | [程序员工具箱](https://tool.lu/) | [网站源码](https://github.com/byrwiki/byrwiki) |
+| :----: | ------------------------------------ | ----------------------------------------- | -------------------------------- | ------------------------------- | --------------------------------------- | ------------------------------------ | -------------------------------------------- | -------------------------------- | ---------------------------------------------- |
+|        |                                      |                                           |                                  |                                 |                                         |                                      |                                              |                                  |                                                |

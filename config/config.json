@@ -1,0 +1,96 @@
+{
+  "sites": [
+    {
+      "name": "百度",
+      "id": "baidu",
+      "queryUrl": "https://www.baidu.com/s?wd={}"
+    },
+    {
+      "name": "谷歌",
+      "id": "google",
+      "queryUrl": "http://www.google.com/search?q={}",
+      "color": "success",
+      "display": true
+    },
+    {
+      "name": "搜狗",
+      "id": "sogou",
+      "queryUrl": "https://www.sogou.com/web?query={}"
+    },
+		    {
+		  "name": "必应",
+		  "id": "biying",
+		  "queryUrl": "https://cn.bing.com/search?q={}"
+			},
+		
+    {
+      "name": "京东",
+      "id": "jd",
+      "queryUrl": "http://search.jd.com/Search?enc=utf-8&keyword={}"
+    },
+    {
+      "name": "淘宝",
+      "id": "taobao",
+      "queryUrl": "https://s.taobao.com/search?q={}"
+    },
+    {
+      "name": "微信",
+      "id": "weixin",
+      "queryUrl": "http://weixin.sogou.com/weixin?type=2&query={}&ie=utf8"
+		},
+    {
+      "name": "知乎",
+      "id": "zhihu",
+      "queryUrl": "https://www.zhihu.com/search?q={}"
+    },
+    {
+      "name": "微博",
+      "id": "weibo",
+      "queryUrl": "http://s.weibo.com/weibo/{}"
+    },
+    {
+      "name": "豆瓣",
+      "id": "douban",
+      "queryUrl": "https://www.douban.com/search?q={}"
+    },
+		  
+				   {
+		  "name": "站酷",
+		  "id": "zcool",
+		  "queryUrl": "https://www.zcool.com.cn/search/content?word={}",
+			"color": "success",
+			 "display": true
+		},
+		   {
+		  "name": "花瓣",
+		  "id": "huaban",
+		  "queryUrl": "https://huaban.com/search/?q={}",
+      "color": "success",
+			 "display": true
+		},
+		{
+		  "name": "Grabcad",
+		  "id": "grabcad",
+		  "queryUrl": "https://grabcad.com/library?page=1&time=all_time&sort=popular&query={}",
+			 "display": true
+		},
+		
+    {
+      "name": "地图",
+      "id": "ditu",
+      "queryUrl": "http://ditu.amap.com/search?query={} "
+    },
+		
+    {
+      "name": "B站",
+      "id": "bilibili",
+      "queryUrl": "https://search.bilibili.com/video?keyword={} "
+    },
+		
+    {
+      "name": "影视",
+      "id": "videos",
+      "queryUrl": "https://www.bd2020.com/search.jspx?q={} "
+    }
+  ]
+}
