@@ -38,10 +38,10 @@
       s.parentNode.insertBefore(hm, s);
     })();
 
-    
-window.onload = function(){
-	document.querySelector("#search").focus();
-}
+
+    window.onload = function () {
+      document.querySelector("#search").focus();
+    }
   </script>
 
 </head>
@@ -68,29 +68,29 @@ window.onload = function(){
     <!-- 和风天气插件 -->
     <div id="he-plugin-simple"></div>
     <script>
-    WIDGET = {
-      CONFIG: {
-        "modules": "0241",
-        "background": 5,
-        "tmpColor": "4A4A4A",
-        "tmpSize": 16,
-        "cityColor": "4A4A4A",
-        "citySize": 16,
-        "aqiSize": 16,
-        "weatherIconSize": 24,
-        "alertIconSize": 18,
-        "padding": "10px 10px 10px 10px",
-        "shadow": "1",
-        "language": "zh",
-        "borderRadius": 5,
-        "fixed": "true",
-        "vertical": "middle",
-        "horizontal": "center",
-        "left": "20",
-        "top": 50,
-        "key": "471f1defbe5d48cebc45c8e90a3682af"
+      WIDGET = {
+        CONFIG: {
+          "modules": "0241",
+          "background": 5,
+          "tmpColor": "4A4A4A",
+          "tmpSize": 16,
+          "cityColor": "4A4A4A",
+          "citySize": 16,
+          "aqiSize": 16,
+          "weatherIconSize": 24,
+          "alertIconSize": 18,
+          "padding": "10px 10px 10px 10px",
+          "shadow": "1",
+          "language": "zh",
+          "borderRadius": 5,
+          "fixed": "true",
+          "vertical": "middle",
+          "horizontal": "center",
+          "left": "20",
+          "top": 50,
+          "key": "471f1defbe5d48cebc45c8e90a3682af"
+        }
       }
-    }
     </script>
     <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
 
@@ -192,7 +192,8 @@ window.onload = function(){
           <td align="center"><a href="https://github.com/" target="_blank" id="lianjie">Github</a></td>
           <td align="center"><a href="https://gitee.com/" target="_blank" id="lianjie">Gitee</a></td>
           <td align="center"><a href="https://coding.net/" target="_blank" id="lianjie">coding</a></td>
-          <td align="center"><a href="https://dapenson.cloudstudio.net/dashboard/workspace" target="_blank" id="lianjie1">远程工作台</a></td>
+          <td align="center"><a href="https://dapenson.cloudstudio.net/dashboard/workspace" target="_blank"
+              id="lianjie1">远程工作台</a></td>
         </tr>
       </tbody>
       <tbody>
@@ -208,8 +209,7 @@ window.onload = function(){
           <td align="center"><a href="http://fanyi.youdao.com/" target="_blank" id="lianjie1">有道翻译</a></td>
           <td align="center"><a href="https://sleepeatcode.com/ghtoc" target="_blank" id="lianjie">md目录生成</a></td>
           <td align="center"><a href="http://suo.im/" target="_blank" id="lianjie">短链生成</a></td>
-          <td align="center"><a href="https://filehelper.weixin.qq.com/" target="_blank"
-              id="lianjie">微信文件网页</a></td>
+          <td align="center"><a href="https://filehelper.weixin.qq.com/" target="_blank" id="lianjie">微信文件网页</a></td>
         </tr>
       </tbody>
       <tbody>
@@ -227,8 +227,7 @@ window.onload = function(){
           </td>
           <td align="center"><a href="https://arduinojson.org/v6/assistant/" target="_blank"
               id="lianjie">ArduinoJson</a></td>
-              <td align="center"><a href="https://regex101.com/" target="_blank"
-                id="lianjie">正则验证</a></td>
+          <td align="center"><a href="https://regex101.com/" target="_blank" id="lianjie">正则验证</a></td>
         </tr>
       </tbody>
       <tbody>
@@ -294,19 +293,16 @@ window.onload = function(){
       </thead>
     </table>
   </div>
-  <!--作者：i@zhangxingqiu.cn
-        时间：2016-10-03
-        描述：当前时间显示代码-->
   <ul class="nav nav-tabs" "=""> 
    <div id=" footer">
     <center>
       <div id="jnkc">
         <script>setInterval("jnkc.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());", 1000);
-        // 点击事件
-        document.getElementById("jnkc").onclick = function() {
-          // 新标签页打开https://x223222981.gitee.io/navigation_page/tools/showTime.html
-          window.open("https://x223222981.gitee.io/navigation_page/tools/showTime.html");
-        }
+          // 点击事件
+          document.getElementById("jnkc").onclick = function () {
+            let url = window.location.href + "tools/showTime.html";
+            window.open(url);
+          }
         </script>
       </div>
 
@@ -349,11 +345,11 @@ window.onload = function(){
         $("#search-btns").append(`
           <input
             type="submit"
-            value="${ site.name}"
-            id="${ site.id}"
+            value="${site.name}"
+            id="${site.id}"
             button
             type="button"
-            class="btn btn-${ 'color' in site ? site.color : 'primary'}"
+            class="btn btn-${'color' in site ? site.color : 'primary'}"
           />
         `);
         $("#" + site.id).click(function () {
@@ -370,7 +366,7 @@ window.onload = function(){
 
   </script>
   <link type="text/css" rel="stylesheet" href="./css/myRewards.css" />
-  
+
 </body>
 
 </html>
