@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +11,10 @@
             padding: 0;
             background-color: #000;
         }
-
         .container {
             width: 100vw;
             height: calc(100vh);
         }
-
         .showTime {
             color: white;
             font-size: 100px;
@@ -25,43 +22,35 @@
             margin: auto;
             text-align: center;
             line-height: calc(100vh);
-
         }
     </style>
 </head>
-
 <body>
     <div class="container">
-        <!-- <div id="ydmdw" class="showTime"></div> -->
         <div id="hmsm" class="showTime"></div>
     </div>
 
     <script>
-
         function showTime() {
             var date = new Date();
-
-            // var year = date.getFullYear();
-            // var month = date.getMonth() + 1;  //因为month属性从0开始所以加1
-            // var day = date.getDate();   // 日
-            // var week = date.getDay();  // 星期几，是个数字
-            // var current_A = year + "-" + month + "-" + day + " " + "星期" + week;
-            // var showTime_A = document.getElementById("ydmdw")
-            // showTime_A.innerHTML = current_A;
-            var hour = date.getHours();
-            var minute = date.getMinutes();
-            var second = date.getSeconds();
-            var micro_second = date.getMilliseconds();
-            second = second < 10 ? "0" + second : second;
-            var current_B = hour + ":" + minute + ":" + second + "       " + micro_second;
-            var showTime_B = document.getElementById("hmsm")
-            showTime_B.innerHTML = current_B;
+            
+            // 补零到两位的小时、分钟、秒
+            var hour = date.getHours().toString().padStart(2, '0');
+            var minute = date.getMinutes().toString().padStart(2, '0');
+            var second = date.getSeconds().toString().padStart(2, '0');
+            
+            // 毫秒新逻辑：保证三位数后取前两位
+            var micro_second = date.getMilliseconds()
+                .toString()
+                .padStart(3, '0')   // 强制补零到三位（如5→005）
+                .slice(0, 2);       // 取前两位（如005→00）
+            
+            // 拼接时间格式
+            var current_B = `${hour}:${minute}:${second}.${micro_second}`;
+            document.getElementById("hmsm").innerHTML = current_B;
         }
 
-        setInterval("showTime()", 1);//每隔1000毫秒（即1秒）显示一次当前时间
+        setInterval(showTime, 1);
     </script>
-
-
 </body>
-
 </html>
